@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header><img src="../assets/image.png" alt="" srcset="" /></header>
+    <body>
+      <h3>Crea tu cuenta CareSwitch</h3>
+      <form>
+        <input
+          type="text"
+          name="Nombre"
+          id="Nombre"
+          value=""
+          placeholder="Nombre"
+          autofocus
+          required
+        />
+        <br />
+        <br />
+
+        <input
+          type="text"
+          name="Apellidos"
+          id="Apellidos"
+          value=""
+          placeholder="Apellidos"
+          autofocus
+          required
+        />
+        <hr />
+        <br>
+        <h4>PAÍS O REGION</h4>
+        <select class="localizacion" name="localizacion">
+          <option value="Australia">Australia</option>
+          <option value="Estados Unidos">Estados Unidos</option>
+          <option value="Guinea">Guinea</option>
+          <option value="Letonia">Letonia</option>
+          <option value="España">España</option>
+          <option value="Portugal">Portugal</option>
+          <option value="Francia">Francia</option>
+        </select>
+        <br>
+        <hr />
+        <input type="email" name="email" placeholder="Email" pattern=^\w+@[a-zA-Z_]+?.[a-zA-Z]{2,3}$
+                title='Introduce una direcccion de correo electronico valida para tu cuenta CareSwitch' required>
+        <br />
+        <br />
+        <input
+          type="password"
+          name="Contraseña"
+          id="password"
+          value=""
+          placeholder="Contraseña"
+          autofocus
+          title="Formato de correo no válido"
+          required
+        />
+        <br />
+        <br />
+        <input
+          type="password2"
+          name="Confirmar"
+          id="password2"
+          value=""
+          placeholder="Confirma contraseña"
+          autofocus
+          required
+        />
+        <br />
+        <hr />
+        <input
+          type="tel"
+          name="phone"
+          pattern="[0-9]{9}"
+          id="phone"
+          value="+34 (España)"
+          autofocus
+          disabled
+        />
+        <br />
+        <br />
+        <input
+          type="tel"
+          name="phone"
+          pattern="[0-9]{9}"
+          id="phone"
+          value="673403465"
+          autofocus
+          required
+        />
+
+        <br />
+        <br />
+        <div class="aceptar">
+          <input type="radio" class="select" name="select" value="" />
+          <label for="select">
+            Acepto la politica de privacidad y publicidad
+            <a href="#">+ info</a></label
+          >
+        </div>
+        <br />
+        <input type="submit" value="Registrarse" class="registerbutton" />
+      </form>
+      <br />
+    </body>
+  </body>
+</html>
